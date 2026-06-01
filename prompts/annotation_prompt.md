@@ -3,7 +3,7 @@
 This prompt instructs an LLM to annotate YouTube comments about Nepali youth
 migration, following the NepPlural Annotation Guidelines. It is split into a
 **system prompt** (role + rules) and a **user prompt template** (the comment to
-label). Output is strict JSON for downstream parsing.
+label). Output is CSV.
 
 ---
 
