@@ -80,6 +80,39 @@ Examples of valid perspectives include:
 - Political profanity and emotional frustration can still be valid perspectives when they relate to Nepali socio-economic discourse.
 - The project is structured for annotation and analysis, not moderation.
 
+## Label taxonomy
+
+This project uses the NepPlural multi-dimensional taxonomy. Each comment is
+labeled across the following categories (values listed with short descriptions):
+
+- **Validity**: whether the comment is relevant for socio-political analysis.
+	- `Irrelevant`: Praise or noise with no socio-political content.
+	- `Invalid_Hate_Speech`: Direct threats or extreme incitement to violence.
+	- `Valid_Perspective`: Genuine social/political viewpoints or lived-experience.
+
+- **Intent** (stance on migration): the commenter's personal stance or plan.
+	- `Pro-Migration`: Wants to leave, plans to migrate, or advises leaving.
+	- `Anti-Migration`: Prefers staying, urges building locally, or returned home.
+	- `Trapped`: Wants to migrate but cannot, or migrated and regrets it.
+	- `Neutral_Observation`: Describes the situation without stating personal intent.
+
+- **Primary_Driver**: the root cause motivating the commenter's view.
+	- `Economic_Necessity`: Money, unemployment, poverty, or survival needs.
+	- `Family_Obligation`: Duty to family, loans, remittances, or parental pressure.
+	- `Systemic_Anger`: Corruption, politicians, inequality, or failing institutions.
+	- `Patriotism`: Attachment to culture, land, or national identity.
+
+- **Value_Orientation**: who/what the commenter prioritizes.
+	- `Collectivist_Family`: Sacrifices for family welfare or reputation.
+	- `Collectivist_Nation`: Prioritizes national or societal benefit.
+	- `Individualist`: Prioritizes personal advancement, career, or wellbeing.
+
+- **Affect**: the emotional tone of the comment.
+	- `Despairing`: Helplessness, sadness, or resignation.
+	- `Angry`: Profanity, rage, or strong irritation directed at targets.
+	- `Hopeful`: Optimism, resilience, or calls to constructive action.
+	- `Pragmatic`: Matter-of-fact planning, resource-focused statements.
+
 ## License
 
 See [LICENSE](LICENSE) for the project license.
