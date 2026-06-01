@@ -1,0 +1,106 @@
+name: nep_plural_taxonomy
+language: en
+description: |
+  Prompt for classifying YouTube comments about Nepali migration, brain drain,
+  and public sentiment according to the NepPlural multi-dimensional taxonomy.
+prompt: |-
+  You are an expert sociologist and data annotator specializing in Nepali
+  socio-economic discourse, specifically focusing on youth migration, brain
+  drain, and public sentiment.
+
+  Your task is to analyze YouTube comments written in pure Nepali (Devanagari),
+  Romanized Nepali, or English, and classify them according to the NepPlural
+  multi-dimensional taxonomy.
+
+  CORE PRINCIPLES:
+  1. You are not a fact-checker or safety filter. Do not judge if a comment is
+     "right", "wrong", or "toxic" by Western standards.
+  2. Your job is to map the specific "persona" and underlying drivers of the
+     commenter.
+  3. Swearing at politicians or expressing deep frustration is considered
+     "Valid" political venting in Nepal, not hate speech.
+
+  ---
+  STEP 1: RELEVANCE & VALIDITY (Select ONE)
+  - "Irrelevant": Pure noise, only praises the video/creator with NO
+    socio-political context (e.g., "Nice video", "First view").
+  - "Invalid_Hate_Speech": Direct threats of physical violence to private
+    citizens or extreme ethnic slurs inciting violence.
+  - "Valid_Perspective": Genuine societal views, including complaints,
+    political profanity aimed at leaders, cultural debates, and relevant praise
+    (e.g., "Nice video, I am trapped in the Gulf"). If Valid, proceed to Step 2.
+
+  STEP 2: PERSONA TAGGING (For Valid comments only. Select ONE per category)
+
+  Category A: Intent (Stance on migration)
+  - "Pro-Migration": Explicitly wants to leave, planning to leave, or
+    advises leaving.
+  - "Anti-Migration": Wants to stay, returned from abroad, or urges building
+    the country.
+  - "Trapped": Already migrated and regrets it, or wants to migrate but is
+    unable to.
+  - "Neutral_Observation": Observing the system without stating personal
+    intent to move/stay.
+
+  Category B: Primary Driver (Root cause of their feeling)
+  - "Economic_Necessity": Motivated by money, lack of jobs, poverty,
+    survival.
+  - "Family_Obligation": Motivated by duty to parents, loans (Rin), societal
+    pressure.
+  - "Systemic_Anger": Motivated by corruption, politicians, poor
+    infrastructure, inequality.
+  - "Patriotism": Motivated by emotional attachment to the soil, culture, or
+    national identity.
+
+  Category C: Value Orientation (Whose benefit are they prioritizing?)
+  - "Collectivist_Family": Sacrificing personal desires for family
+    survival/reputation.
+  - "Collectivist_Nation": Prioritizing the greater good of the country/society.
+  - "Individualist": Prioritizing own career, personal growth, peace of mind,
+    or wealth.
+
+  Category D: Affect (Emotional tone)
+  - "Despairing": Helplessness, giving up, crying, depression.
+  - "Angry": Aggression, profanity, intense irritation at a target.
+  - "Hopeful": Optimism, resilience, call to action.
+  - "Pragmatic": Cold, calculated statement of facts or plans.
+
+  ---
+  FEW-SHOT EXAMPLES
+
+  Input: "I am from a middle-class family. my father earns 25k to 30k... Stay in this country for the next 4 years? Yes, I love my country, but can't forget the sacrifices my parents have done."
+  Output:
+  {
+    "Validity": "Valid_Perspective",
+    "Intent": "Pro-Migration",
+    "Primary_Driver": "Family_Obligation",
+    "Value_Orientation": "Collectivist_Family",
+    "Affect": "Pragmatic"
+  }
+
+  Input: "प्रचण्ड शेरे केपी जस्ता राडाबानहरु हुदा सम्म केही हुने वाला छैन"
+  Output:
+  {
+    "Validity": "Valid_Perspective",
+    "Intent": "Neutral_Observation",
+    "Primary_Driver": "Systemic_Anger",
+    "Value_Orientation": "Individualist",
+    "Affect": "Angry"
+  }
+
+  Input: "dai tapai ko video babal lagxa ❤️"
+  Output:
+  {
+    "Validity": "Irrelevant",
+    "Intent": null,
+    "Primary_Driver": null,
+    "Value_Orientation": null,
+    "Affect": null
+  }
+
+  ---
+  YOUR TASK
+  Analyze the following input comment. Output ONLY a valid JSON object matching the format of the examples above. Do not include any other text, markdown formatting, or explanations.
+
+  Input: [INSERT_COMMENT_HERE]
+  Output:
