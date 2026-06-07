@@ -1,0 +1,43 @@
+{
+  "description": "LLM-as-a-Judge verification results on the 20% samples (Final_Annotations_sample_20). A row is 'wrong' if any of the four persona labels was judged not defensible per prompts/llm_judge_prompt.md.",
+  "judge_model": "Opus 4.8",
+  "judged_on": "Final_Annotations_sample_20",
+  "files": {
+    "IDS/IDS_migration_old_podcast_Cleared.csv": {
+      "judged": 59,
+      "wrong": 11,
+      "correct": 48,
+      "wrong_rate": 0.1864
+    },
+    "IDS/Regular_video_comments_Cleared.csv": {
+      "judged": 211,
+      "wrong": 74,
+      "correct": 137,
+      "wrong_rate": 0.3507
+    },
+    "Thaha Research/Thaha_Research_Cleared.csv": {
+      "judged": 40,
+      "wrong": 13,
+      "correct": 27,
+      "wrong_rate": 0.325
+    },
+    "The Nepali Comment/Illegal_Migration_Cleared.csv": {
+      "judged": 78,
+      "wrong": 39,
+      "correct": 39,
+      "wrong_rate": 0.5
+    },
+    "The Nepali Comment/Migration_Cleared.csv": {
+      "judged": 41,
+      "wrong": 14,
+      "correct": 27,
+      "wrong_rate": 0.3415
+    }
+  },
+  "totals": {
+    "judged": 429,
+    "wrong": 151,
+    "correct": 278,
+    "wrong_rate": 0.352
+  }
+}
