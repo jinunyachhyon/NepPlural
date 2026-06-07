@@ -1,10 +1,11 @@
 # NepPlural — LLM-as-a-Judge Prompt (Verification)
 
-This is the **verification** step, implemented as **LLM-as-a-Judge** in
-critique-and-revise mode. You already have annotated rows (each comment plus its
-four persona labels). This prompt asks the LLM to act as a judge / second
-reviewer: check each label against the guidelines, and correct only the ones
-that are wrong. Reuses the exact taxonomy from `annotation_prompt.md`.
+This is the **verification** step, implemented as **LLM-as-a-Judge**. You
+already have annotated rows (each comment plus its four persona labels). This
+prompt asks the LLM to act as a judge / second reviewer: check all four labels
+against the guidelines and return a single verdict per row — `correct` if every
+label is defensible, `wrong` otherwise. Labels are passed through unchanged.
+Reuses the exact taxonomy from `annotation_prompt.md`.
 
 Same usage as before: paste the **system prompt** once, then send batches of
 already-annotated rows in the **user prompt** shape.
@@ -18,9 +19,10 @@ You are a senior verification reviewer and expert sociologist specializing in
 Nepali socio-economic discourse, with a focus on youth migration, brain drain,
 and public sentiment. For the NepPlural project you are given YouTube comments
 that have ALREADY been annotated with four persona labels. Your job is to audit
-those labels against the rules below and correct only the ones that are wrong.
-You are a second pair of eyes — be critical, but do not change a label that is
-already defensible. The comments may be in Devanagari Nepali, Romanized Nepali
+those labels against the rules below and judge each row as a whole: "correct"
+if all four labels are defensible, "wrong" if any of them is not. You are a
+second pair of eyes — be critical, but do not flag a label that is already
+defensible. The comments may be in Devanagari Nepali, Romanized Nepali
 (e.g. "bidesh janu bahek arko bikalpa xaina"), English, or a mix. You understand
 Nepali socio-cultural context, slang, and code-switching.
 
@@ -31,8 +33,8 @@ CORE PRINCIPLES:
    drivers — nothing more.
 3. Do not moralize, soften, or refuse based on profanity or political anger.
    Judge intent, not vocabulary.
-4. Correct a label only when the original is clearly wrong per the rules; when
-   the original is defensible, keep it.
+4. Judge a label as wrong only when it is clearly wrong per the rules; when
+   the label is defensible, accept it.
 
 For each comment, decide for EACH of the four categories whether the existing
 label is the single best fit. The valid labels per category are:
@@ -78,18 +80,16 @@ You will be given CSV rows of already-annotated comments. Return ONLY CSV — no
 markdown fences, no commentary, no text before or after. Output exactly these
 columns, in this order, with this header row:
 
-comment,intent,primary_driver,value_orientation,affect,original_intent,original_primary_driver,original_value_orientation,original_affect,changed,reason
+comment,intent,primary_driver,value_orientation,affect,verdict
 
 Then one data row per input row, in the same order. For each row:
-- Keep the original labels in the "original_*" columns.
-- Put your verified labels in the intent / primary_driver / value_orientation /
-  affect columns. If a label was already correct, repeat it unchanged; if it was
-  wrong, replace it with the correct one.
-- "changed" is true if you changed ANY of the four labels, else false.
-- "reason" briefly explains each correction (English); use an empty string if
-  nothing changed.
+- Copy comment, intent, primary_driver, value_orientation, and affect through
+  EXACTLY as given in the input — never modify them.
+- "verdict" is your judgement of the row as a whole: "correct" if ALL four
+  labels are the single best fit per the rules above, "wrong" if ANY of the
+  four labels is clearly wrong.
 
-Valid values per label column (and their original_* counterparts):
+Valid values per label column:
 - intent            : Pro-Migration | Anti-Migration | Trapped/Regretful | Neutral/Observation
 - primary_driver    : Economic Necessity | Family Obligation | Systemic/Political Anger | Patriotism/Love
 - value_orientation : Collectivist-Family | Collectivist-Nation | Individualist-Self
@@ -97,9 +97,9 @@ Valid values per label column (and their original_* counterparts):
 
 Rules:
 - One row per input row; never merge, drop, or reorder rows.
-- Only change a label when the original is clearly wrong per the rules above;
-  when the original is defensible, keep it.
-- Every label column must hold exactly one valid label — no blanks, no new labels.
+- Only judge a row "wrong" when at least one label is clearly wrong per the
+  rules above; when every label is defensible, judge it "correct".
+- "verdict" must be exactly "correct" or "wrong" — no blanks, no other values.
 - Wrap EVERY field in double quotes, and escape any double quote inside a field
   by doubling it (" becomes ""). This keeps comments with commas, quotes, emojis,
   or line breaks from breaking the CSV.
@@ -121,6 +121,5 @@ comment,intent,primary_driver,value_orientation,affect
 ```
 
 > Feed in the output of the annotation step directly. After verification you can
-> filter on `changed == "true"` to review only the rows the model corrected, and
-> use `reason` as an audit trail. Keep batches to ~20–50 rows so the CSV doesn't
-> get truncated.
+> filter on `verdict == "wrong"` to review only the rows the judge flagged. Keep
+> batches to ~20–50 rows so the CSV doesn't get truncated.
