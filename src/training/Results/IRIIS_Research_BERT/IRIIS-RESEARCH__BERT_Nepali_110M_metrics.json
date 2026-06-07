@@ -1,0 +1,31 @@
+{
+  "model": "IRIIS-RESEARCH/BERT_Nepali_110M",
+  "seed": 42,
+  "epochs": 10,
+  "lr": 1e-05,
+  "batch_size": 16,
+  "max_length": 192,
+  "n_train": 1502,
+  "n_val": 215,
+  "n_test": 430,
+  "best_val_mean_macro_f1": 0.3612,
+  "test": {
+    "intent": {
+      "macro_f1": 0.3423,
+      "accuracy": 0.7209
+    },
+    "primary_driver": {
+      "macro_f1": 0.3381,
+      "accuracy": 0.4837
+    },
+    "value_orientation": {
+      "macro_f1": 0.4203,
+      "accuracy": 0.6186
+    },
+    "affect": {
+      "macro_f1": 0.3337,
+      "accuracy": 0.5465
+    },
+    "mean_macro_f1": 0.3586
+  }
+}

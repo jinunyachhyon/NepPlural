@@ -1,0 +1,31 @@
+{
+  "model": "IRIIS-RESEARCH/RoBERTa_Nepali_125M",
+  "seed": 42,
+  "epochs": 10,
+  "lr": 1e-05,
+  "batch_size": 16,
+  "max_length": 192,
+  "n_train": 1502,
+  "n_val": 215,
+  "n_test": 430,
+  "best_val_mean_macro_f1": 0.353,
+  "test": {
+    "intent": {
+      "macro_f1": 0.3541,
+      "accuracy": 0.7395
+    },
+    "primary_driver": {
+      "macro_f1": 0.3648,
+      "accuracy": 0.493
+    },
+    "value_orientation": {
+      "macro_f1": 0.41,
+      "accuracy": 0.6581
+    },
+    "affect": {
+      "macro_f1": 0.2936,
+      "accuracy": 0.4977
+    },
+    "mean_macro_f1": 0.3556
+  }
+}

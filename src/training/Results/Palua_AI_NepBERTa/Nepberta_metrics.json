@@ -1,0 +1,31 @@
+{
+  "model": "Prazzwal07/nepberta",
+  "seed": 42,
+  "epochs": 10,
+  "lr": 1e-05,
+  "batch_size": 16,
+  "max_length": 192,
+  "n_train": 1502,
+  "n_val": 215,
+  "n_test": 430,
+  "best_val_mean_macro_f1": 0.3752,
+  "test": {
+    "intent": {
+      "macro_f1": 0.3441,
+      "accuracy": 0.7767
+    },
+    "primary_driver": {
+      "macro_f1": 0.333,
+      "accuracy": 0.5093
+    },
+    "value_orientation": {
+      "macro_f1": 0.4625,
+      "accuracy": 0.6605
+    },
+    "affect": {
+      "macro_f1": 0.4169,
+      "accuracy": 0.6279
+    },
+    "mean_macro_f1": 0.3892
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "model": "google-bert/bert-base-multilingual-cased",
+  "seed": 42,
+  "epochs": 10,
+  "lr": 1e-05,
+  "batch_size": 16,
+  "max_length": 192,
+  "n_train": 1502,
+  "n_val": 215,
+  "n_test": 430,
+  "best_val_mean_macro_f1": 0.554,
+  "test": {
+    "intent": {
+      "macro_f1": 0.4273,
+      "accuracy": 0.7535
+    },
+    "primary_driver": {
+      "macro_f1": 0.4792,
+      "accuracy": 0.6093
+    },
+    "value_orientation": {
+      "macro_f1": 0.619,
+      "accuracy": 0.7093
+    },
+    "affect": {
+      "macro_f1": 0.4318,
+      "accuracy": 0.6163
+    },
+    "mean_macro_f1": 0.4893
+  }
+}

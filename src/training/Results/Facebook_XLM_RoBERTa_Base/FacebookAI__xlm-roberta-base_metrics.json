@@ -1,0 +1,31 @@
+{
+  "model": "FacebookAI/xlm-roberta-base",
+  "seed": 42,
+  "epochs": 10,
+  "lr": 1e-05,
+  "batch_size": 16,
+  "max_length": 192,
+  "n_train": 1502,
+  "n_val": 215,
+  "n_test": 430,
+  "best_val_mean_macro_f1": 0.5465,
+  "test": {
+    "intent": {
+      "macro_f1": 0.3545,
+      "accuracy": 0.7488
+    },
+    "primary_driver": {
+      "macro_f1": 0.5124,
+      "accuracy": 0.6349
+    },
+    "value_orientation": {
+      "macro_f1": 0.6313,
+      "accuracy": 0.7256
+    },
+    "affect": {
+      "macro_f1": 0.566,
+      "accuracy": 0.6628
+    },
+    "mean_macro_f1": 0.516
+  }
+}
