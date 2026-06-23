@@ -1,6 +1,6 @@
-# PluralBench-NP
+# NepPlural
 
-PluralBench-NP is a pluralistic benchmark focused on Steerable Pluralism in the Nepali language. Data was collected from various YouTube channels, capturing comments and public discourse around migration, brain drain, identity, and socio-economic pressure in Nepal.
+NepPlural is a pluralistic benchmark focused on Steerable Pluralism in the Nepali language. Data was collected from various YouTube channels, capturing comments and public discourse around migration, brain drain, identity, and socio-economic pressure in Nepal.
 
 The project is designed to support annotation, prompt development, and downstream evaluation of language models on Nepali cultural and value-oriented tasks.
 
