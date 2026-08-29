@@ -1,0 +1,36 @@
+train 1661 | val 184 | test 300  (no leakage)
+  train persona rows (LLM-labelled): 1592 | No-Persona rows: 254
+
+[intent]  test (human gold) class support:
+intent
+No-Persona             116
+Neutral/Observation     68
+Anti-Migration          52
+Pro-Migration           48
+Trapped/Regretful       16
+
+[primary_driver]  test (human gold) class support:
+primary_driver
+No-Persona                  116
+Economic Necessity           65
+Systemic/Political Anger     57
+Patriotism/Love              49
+Family Obligation            13
+
+[value_orientation]  test (human gold) class support:
+value_orientation
+No-Persona             116
+Collectivist-Nation     90
+Individualist-Self      73
+Collectivist-Family     21
+
+[affect]  test (human gold) class support:
+affect
+No-Persona           116
+Pragmatic             59
+Angry/Frustrated      47
+Despairing/Sad        41
+Hopeful/Motivated     37
+
+NOTE: rare test classes (support < ~8) are reported but per-class F1 on them
+      is high-variance — lead with macro-F1 and state the caveat.

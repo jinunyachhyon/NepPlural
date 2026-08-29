@@ -1,0 +1,35 @@
+Applied 72 adjudicated labels.
+Wrote data/pools/sample/step3/gold_final.csv  (300 rows, 0 unresolved).
+
+Final gold label distribution:
+
+[intent]
+intent
+No-Persona             116
+Neutral/Observation     68
+Anti-Migration          52
+Pro-Migration           48
+Trapped/Regretful       16
+
+[primary_driver]
+primary_driver
+No-Persona                  116
+Economic Necessity           65
+Systemic/Political Anger     57
+Patriotism/Love              49
+Family Obligation            13
+
+[value_orientation]
+value_orientation
+No-Persona             116
+Collectivist-Nation     90
+Individualist-Self      73
+Collectivist-Family     21
+
+[affect]
+affect
+No-Persona           116
+Pragmatic             59
+Angry/Frustrated      47
+Despairing/Sad        41
+Hopeful/Motivated     37

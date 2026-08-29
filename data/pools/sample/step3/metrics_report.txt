@@ -1,0 +1,49 @@
+======================================================================
+INVALID LABELS: 0 (see invalid_labels.csv)
+
+======================================================================
+NO-PERSONA DECISION
+  A: 160 No-Persona | 140 Persona |   0 blank
+  B: 101 No-Persona | 199 Persona |   0 blank
+  C: 112 No-Persona | 188 Persona |   0 blank
+  Fleiss kappa on the No-Persona decision: 0.638  (n=300)
+
+======================================================================
+INTER-ANNOTATOR AGREEMENT PER AXIS (No-Persona treated as a label)
+axis                  Fleiss k   Kripp a  n_complete
+intent                   0.562     0.563         300
+primary_driver           0.575     0.576         300
+value_orientation        0.555     0.555         300
+affect                   0.525     0.525         300
+
+PER AXIS on rows where ALL THREE marked Persona (excludes No-Persona):
+  (132 such rows)
+  intent               Fleiss k =  0.601  (n=132)
+  primary_driver       Fleiss k =  0.624  (n=132)
+  value_orientation    Fleiss k =  0.539  (n=132)
+  affect               Fleiss k =  0.505  (n=132)
+
+======================================================================
+GOLD LABELS (human majority 2-of-3)
+  intent               3-way ties needing adjudication: 18
+  primary_driver       3-way ties needing adjudication: 22
+  value_orientation    3-way ties needing adjudication: 10
+  affect               3-way ties needing adjudication: 22
+  rows where gold = No-Persona on all axes: 116
+  -> 54 rows written to disagreements.csv for adjudication
+
+======================================================================
+HUMAN GOLD vs LLM
+
+axis                  human k    LLM k  H-gold=LLM-maj
+intent                  0.562    0.173          50.6%  (n=166)
+primary_driver          0.575    0.128          72.2%  (n=162)
+value_orientation       0.555    0.178          74.7%  (n=174)
+affect                  0.525    0.220          60.5%  (n=162)
+
+Rows humans (majority) called No-Persona: 116
+  -> the LLM pipeline assigned a substantive persona to ALL of them
+     (LLMs never abstain), i.e. LLM over-attributes persona on 116 / 300 = 38.7% of the sample
+
+Outputs written to: data/pools/sample/step3
+  gold_labels.csv | disagreements.csv | invalid_labels.csv
