@@ -1,0 +1,24 @@
+{
+  "model": "Prazzwal07/nepberta",
+  "seed": 42,
+  "best_val_mean_macro_f1": 0.4238,
+  "test": {
+    "intent": {
+      "macro_f1": 0.1899,
+      "accuracy": 0.2533
+    },
+    "primary_driver": {
+      "macro_f1": 0.17,
+      "accuracy": 0.22
+    },
+    "value_orientation": {
+      "macro_f1": 0.2772,
+      "accuracy": 0.3633
+    },
+    "affect": {
+      "macro_f1": 0.2162,
+      "accuracy": 0.2567
+    },
+    "mean_macro_f1": 0.2133
+  }
+}

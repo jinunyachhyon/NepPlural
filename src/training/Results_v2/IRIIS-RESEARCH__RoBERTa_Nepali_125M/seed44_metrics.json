@@ -1,0 +1,24 @@
+{
+  "model": "IRIIS-RESEARCH/RoBERTa_Nepali_125M",
+  "seed": 44,
+  "best_val_mean_macro_f1": 0.4117,
+  "test": {
+    "intent": {
+      "macro_f1": 0.2058,
+      "accuracy": 0.2767
+    },
+    "primary_driver": {
+      "macro_f1": 0.2044,
+      "accuracy": 0.23
+    },
+    "value_orientation": {
+      "macro_f1": 0.2724,
+      "accuracy": 0.36
+    },
+    "affect": {
+      "macro_f1": 0.2003,
+      "accuracy": 0.2533
+    },
+    "mean_macro_f1": 0.2207
+  }
+}

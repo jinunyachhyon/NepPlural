@@ -1,0 +1,24 @@
+{
+  "model": "google-bert/bert-base-multilingual-cased",
+  "seed": 43,
+  "best_val_mean_macro_f1": 0.5545,
+  "test": {
+    "intent": {
+      "macro_f1": 0.2575,
+      "accuracy": 0.2933
+    },
+    "primary_driver": {
+      "macro_f1": 0.3374,
+      "accuracy": 0.32
+    },
+    "value_orientation": {
+      "macro_f1": 0.4248,
+      "accuracy": 0.41
+    },
+    "affect": {
+      "macro_f1": 0.314,
+      "accuracy": 0.31
+    },
+    "mean_macro_f1": 0.3334
+  }
+}

@@ -1,0 +1,96 @@
+model,axis,class,support,f1_mean,f1_std
+FacebookAI/xlm-roberta-base,affect,No-Persona,116,0.238,0.031
+FacebookAI/xlm-roberta-base,affect,Pragmatic,59,0.364,0.016
+FacebookAI/xlm-roberta-base,affect,Angry/Frustrated,47,0.478,0.032
+FacebookAI/xlm-roberta-base,affect,Despairing/Sad,41,0.486,0.018
+FacebookAI/xlm-roberta-base,affect,Hopeful/Motivated,37,0.322,0.027
+FacebookAI/xlm-roberta-base,intent,No-Persona,116,0.222,0.032
+FacebookAI/xlm-roberta-base,intent,Neutral/Observation,68,0.339,0.017
+FacebookAI/xlm-roberta-base,intent,Anti-Migration,52,0.39,0.04
+FacebookAI/xlm-roberta-base,intent,Pro-Migration,48,0.296,0.065
+FacebookAI/xlm-roberta-base,intent,Trapped/Regretful,16,0.159,0.113
+FacebookAI/xlm-roberta-base,primary_driver,No-Persona,116,0.244,0.036
+FacebookAI/xlm-roberta-base,primary_driver,Economic Necessity,65,0.292,0.01
+FacebookAI/xlm-roberta-base,primary_driver,Systemic/Political Anger,57,0.459,0.055
+FacebookAI/xlm-roberta-base,primary_driver,Patriotism/Love,49,0.339,0.033
+FacebookAI/xlm-roberta-base,primary_driver,Family Obligation,13,0.205,0.067
+FacebookAI/xlm-roberta-base,value_orientation,No-Persona,116,0.225,0.035
+FacebookAI/xlm-roberta-base,value_orientation,Collectivist-Nation,90,0.609,0.025
+FacebookAI/xlm-roberta-base,value_orientation,Individualist-Self,73,0.355,0.029
+FacebookAI/xlm-roberta-base,value_orientation,Collectivist-Family,21,0.373,0.065
+IRIIS-RESEARCH/BERT_Nepali_110M,affect,No-Persona,116,0.221,0.017
+IRIIS-RESEARCH/BERT_Nepali_110M,affect,Pragmatic,59,0.31,0.008
+IRIIS-RESEARCH/BERT_Nepali_110M,affect,Angry/Frustrated,47,0.098,0.074
+IRIIS-RESEARCH/BERT_Nepali_110M,affect,Despairing/Sad,41,0.089,0.062
+IRIIS-RESEARCH/BERT_Nepali_110M,affect,Hopeful/Motivated,37,0.21,0.027
+IRIIS-RESEARCH/BERT_Nepali_110M,intent,No-Persona,116,0.22,0.017
+IRIIS-RESEARCH/BERT_Nepali_110M,intent,Neutral/Observation,68,0.301,0.012
+IRIIS-RESEARCH/BERT_Nepali_110M,intent,Anti-Migration,52,0.307,0.033
+IRIIS-RESEARCH/BERT_Nepali_110M,intent,Pro-Migration,48,0.12,0.104
+IRIIS-RESEARCH/BERT_Nepali_110M,intent,Trapped/Regretful,16,0.012,0.024
+IRIIS-RESEARCH/BERT_Nepali_110M,primary_driver,No-Persona,116,0.216,0.018
+IRIIS-RESEARCH/BERT_Nepali_110M,primary_driver,Economic Necessity,65,0.197,0.01
+IRIIS-RESEARCH/BERT_Nepali_110M,primary_driver,Systemic/Political Anger,57,0.138,0.064
+IRIIS-RESEARCH/BERT_Nepali_110M,primary_driver,Patriotism/Love,49,0.213,0.034
+IRIIS-RESEARCH/BERT_Nepali_110M,primary_driver,Family Obligation,13,0.017,0.035
+IRIIS-RESEARCH/BERT_Nepali_110M,value_orientation,No-Persona,116,0.204,0.019
+IRIIS-RESEARCH/BERT_Nepali_110M,value_orientation,Collectivist-Nation,90,0.461,0.005
+IRIIS-RESEARCH/BERT_Nepali_110M,value_orientation,Individualist-Self,73,0.348,0.006
+IRIIS-RESEARCH/BERT_Nepali_110M,value_orientation,Collectivist-Family,21,0.0,0.0
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,affect,No-Persona,116,0.261,0.03
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,affect,Pragmatic,59,0.331,0.01
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,affect,Angry/Frustrated,47,0.073,0.06
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,affect,Despairing/Sad,41,0.04,0.049
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,affect,Hopeful/Motivated,37,0.197,0.015
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,intent,No-Persona,116,0.248,0.029
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,intent,Neutral/Observation,68,0.284,0.017
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,intent,Anti-Migration,52,0.32,0.038
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,intent,Pro-Migration,48,0.129,0.081
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,intent,Trapped/Regretful,16,0.019,0.038
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,primary_driver,No-Persona,116,0.255,0.023
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,primary_driver,Economic Necessity,65,0.215,0.017
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,primary_driver,Systemic/Political Anger,57,0.107,0.05
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,primary_driver,Patriotism/Love,49,0.263,0.016
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,primary_driver,Family Obligation,13,0.025,0.05
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,value_orientation,No-Persona,116,0.245,0.029
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,value_orientation,Collectivist-Nation,90,0.464,0.014
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,value_orientation,Individualist-Self,73,0.347,0.012
+IRIIS-RESEARCH/RoBERTa_Nepali_125M,value_orientation,Collectivist-Family,21,0.0,0.0
+Nepberta/nepberta,affect,No-Persona,116,0.278,0.023
+Nepberta/nepberta,affect,Pragmatic,59,0.298,0.012
+Nepberta/nepberta,affect,Angry/Frustrated,47,0.109,0.06
+Nepberta/nepberta,affect,Despairing/Sad,41,0.079,0.068
+Nepberta/nepberta,affect,Hopeful/Motivated,37,0.217,0.011
+Nepberta/nepberta,intent,No-Persona,116,0.258,0.015
+Nepberta/nepberta,intent,Neutral/Observation,68,0.295,0.018
+Nepberta/nepberta,intent,Anti-Migration,52,0.307,0.044
+Nepberta/nepberta,intent,Pro-Migration,48,0.106,0.082
+Nepberta/nepberta,intent,Trapped/Regretful,16,0.0,0.0
+Nepberta/nepberta,primary_driver,No-Persona,116,0.274,0.02
+Nepberta/nepberta,primary_driver,Economic Necessity,65,0.214,0.022
+Nepberta/nepberta,primary_driver,Systemic/Political Anger,57,0.128,0.077
+Nepberta/nepberta,primary_driver,Patriotism/Love,49,0.196,0.052
+Nepberta/nepberta,primary_driver,Family Obligation,13,0.0,0.0
+Nepberta/nepberta,value_orientation,No-Persona,116,0.255,0.012
+Nepberta/nepberta,value_orientation,Collectivist-Nation,90,0.487,0.012
+Nepberta/nepberta,value_orientation,Individualist-Self,73,0.34,0.007
+Nepberta/nepberta,value_orientation,Collectivist-Family,21,0.0,0.0
+google-bert/bert-base-multilingual-cased,affect,No-Persona,116,0.213,0.031
+google-bert/bert-base-multilingual-cased,affect,Pragmatic,59,0.346,0.019
+google-bert/bert-base-multilingual-cased,affect,Angry/Frustrated,47,0.43,0.031
+google-bert/bert-base-multilingual-cased,affect,Despairing/Sad,41,0.404,0.068
+google-bert/bert-base-multilingual-cased,affect,Hopeful/Motivated,37,0.267,0.023
+google-bert/bert-base-multilingual-cased,intent,No-Persona,116,0.204,0.038
+google-bert/bert-base-multilingual-cased,intent,Neutral/Observation,68,0.353,0.017
+google-bert/bert-base-multilingual-cased,intent,Anti-Migration,52,0.365,0.025
+google-bert/bert-base-multilingual-cased,intent,Pro-Migration,48,0.29,0.041
+google-bert/bert-base-multilingual-cased,intent,Trapped/Regretful,16,0.123,0.093
+google-bert/bert-base-multilingual-cased,primary_driver,No-Persona,116,0.207,0.039
+google-bert/bert-base-multilingual-cased,primary_driver,Economic Necessity,65,0.276,0.021
+google-bert/bert-base-multilingual-cased,primary_driver,Systemic/Political Anger,57,0.498,0.025
+google-bert/bert-base-multilingual-cased,primary_driver,Patriotism/Love,49,0.312,0.026
+google-bert/bert-base-multilingual-cased,primary_driver,Family Obligation,13,0.337,0.05
+google-bert/bert-base-multilingual-cased,value_orientation,No-Persona,116,0.196,0.032
+google-bert/bert-base-multilingual-cased,value_orientation,Collectivist-Nation,90,0.604,0.006
+google-bert/bert-base-multilingual-cased,value_orientation,Individualist-Self,73,0.36,0.011
+google-bert/bert-base-multilingual-cased,value_orientation,Collectivist-Family,21,0.559,0.124

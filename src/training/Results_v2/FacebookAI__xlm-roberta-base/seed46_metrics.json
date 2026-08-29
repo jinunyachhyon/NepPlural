@@ -1,0 +1,24 @@
+{
+  "model": "FacebookAI/xlm-roberta-base",
+  "seed": 46,
+  "best_val_mean_macro_f1": 0.5522,
+  "test": {
+    "intent": {
+      "macro_f1": 0.2724,
+      "accuracy": 0.3267
+    },
+    "primary_driver": {
+      "macro_f1": 0.3346,
+      "accuracy": 0.34
+    },
+    "value_orientation": {
+      "macro_f1": 0.3615,
+      "accuracy": 0.4
+    },
+    "affect": {
+      "macro_f1": 0.389,
+      "accuracy": 0.3667
+    },
+    "mean_macro_f1": 0.3394
+  }
+}

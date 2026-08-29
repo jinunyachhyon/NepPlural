@@ -1,0 +1,24 @@
+{
+  "model": "IRIIS-RESEARCH/BERT_Nepali_110M",
+  "seed": 42,
+  "best_val_mean_macro_f1": 0.4506,
+  "test": {
+    "intent": {
+      "macro_f1": 0.2059,
+      "accuracy": 0.2667
+    },
+    "primary_driver": {
+      "macro_f1": 0.1808,
+      "accuracy": 0.2
+    },
+    "value_orientation": {
+      "macro_f1": 0.254,
+      "accuracy": 0.3367
+    },
+    "affect": {
+      "macro_f1": 0.2029,
+      "accuracy": 0.2467
+    },
+    "mean_macro_f1": 0.2109
+  }
+}

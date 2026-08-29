@@ -1,0 +1,29 @@
+{
+  "intent": {
+    "Anti-Migration": 0,
+    "Neutral/Observation": 1,
+    "No-Persona": 2,
+    "Pro-Migration": 3,
+    "Trapped/Regretful": 4
+  },
+  "primary_driver": {
+    "Economic Necessity": 0,
+    "Family Obligation": 1,
+    "No-Persona": 2,
+    "Patriotism/Love": 3,
+    "Systemic/Political Anger": 4
+  },
+  "value_orientation": {
+    "Collectivist-Family": 0,
+    "Collectivist-Nation": 1,
+    "Individualist-Self": 2,
+    "No-Persona": 3
+  },
+  "affect": {
+    "Angry/Frustrated": 0,
+    "Despairing/Sad": 1,
+    "Hopeful/Motivated": 2,
+    "No-Persona": 3,
+    "Pragmatic": 4
+  }
+}

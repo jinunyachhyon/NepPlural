@@ -1,0 +1,15 @@
+======================================================================
+LEADERBOARD  (test = human gold; mean±std macro-F1 over seeds)
+======================================================================
+                                   model  n_seeds      intent primary_driver value_orientation      affect mean_macro_f1
+             FacebookAI/xlm-roberta-base        5 0.281±0.018    0.308±0.028       0.390±0.024 0.378±0.008         0.339
+google-bert/bert-base-multilingual-cased        5 0.267±0.014    0.326±0.009       0.430±0.031 0.332±0.019         0.339
+                       Nepberta/nepberta        5 0.193±0.013    0.162±0.014       0.270±0.006 0.196±0.018         0.206
+      IRIIS-RESEARCH/RoBERTa_Nepali_125M        5 0.200±0.022    0.173±0.019       0.264±0.010 0.180±0.018         0.204
+         IRIIS-RESEARCH/BERT_Nepali_110M        5 0.192±0.018    0.156±0.015       0.253±0.004 0.185±0.018         0.197
+
+Human ceiling (from human_ceiling.py): mean macro-F1 ~0.80
+Read every model score against that ceiling, not against 1.0.
+
+Per-class F1 + support written to per_class_f1.csv.
+Rare classes (support < ~20) are high-variance — cite macro-F1, caveat per-class.

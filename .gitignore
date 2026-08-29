@@ -1,15 +1,12 @@
-.vscode
-data/label/GPT-5.2/_thaha_comment_index.txt
-data/label/GPT-5.2/_thaha_labels.tsv
-data/label/GPT-5.2/_tnc_migration_comment_index.txt
-data/label/GPT-5.2/_tnc_migration_labels.tsv
-
-
-# environment & local
+# editors & environment
+.vscode/
 .venv/
 .claude/
 
-# regenerable / heavy artifacts
-src/training/Results_v2/
-*_best.pt
+# model checkpoints (safety guard — none currently saved)
+*.pt
+*.bin
+*.safetensors
+
+# regenerable intermediate (rebuild with src/preprocessing/join_llm_labels.py)
 data/pools/_pool_with_llm.csv
