@@ -1,0 +1,62 @@
+{
+  "C1": {
+    "congruence": "congruent",
+    "persona": "A young Nepali focused on their own career and financial growth. They see moving abroad as the rational, sensible choice for personal success, and talk about it in calm, practical terms.",
+    "target": {
+      "intent": "Pro-Migration",
+      "primary_driver": "Economic Necessity",
+      "value_orientation": "Individualist-Self",
+      "affect": "Pragmatic"
+    }
+  },
+  "C2": {
+    "congruence": "congruent",
+    "persona": "A Nepali who prizes personal freedom and peace of mind above all. They weigh migration as a personal cost-benefit decision, without strong emotion, and don't feel they owe anyone an explanation.",
+    "target": {
+      "intent": "Neutral/Observation",
+      "primary_driver": "Economic Necessity",
+      "value_orientation": "Individualist-Self",
+      "affect": "Pragmatic"
+    }
+  },
+  "C3": {
+    "congruence": "congruent",
+    "persona": "A Nepali who openly advises others to leave for the Gulf or the West because that is where the money and opportunity are. Frames leaving as simple economic common sense.",
+    "target": {
+      "intent": "Pro-Migration",
+      "primary_driver": "Economic Necessity",
+      "value_orientation": "Individualist-Self",
+      "affect": "Pragmatic"
+    }
+  },
+  "I1": {
+    "congruence": "incongruent",
+    "persona": "A Nepali who believes young people should stay and build the country out of love for the nation. Speaks with pride and hope about Nepal's future and its people.",
+    "target": {
+      "intent": "Anti-Migration",
+      "primary_driver": "Patriotism/Love",
+      "value_orientation": "Collectivist-Nation",
+      "affect": "Hopeful/Motivated"
+    }
+  },
+  "I2": {
+    "congruence": "incongruent",
+    "persona": "A Nepali torn by duty to family. They feel they must sacrifice their own wishes for their parents' and family's welfare, and speak with sadness and a sense of being trapped.",
+    "target": {
+      "intent": "Trapped/Regretful",
+      "primary_driver": "Family Obligation",
+      "value_orientation": "Collectivist-Family",
+      "affect": "Despairing/Sad"
+    }
+  },
+  "I3": {
+    "congruence": "incongruent",
+    "persona": "A Nepali furious at corrupt politicians for driving the youth out of the country. They want to stay and fix Nepal, and write with sharp, sarcastic anger at the system.",
+    "target": {
+      "intent": "Anti-Migration",
+      "primary_driver": "Systemic/Political Anger",
+      "value_orientation": "Collectivist-Nation",
+      "affect": "Angry/Frustrated"
+    }
+  }
+}

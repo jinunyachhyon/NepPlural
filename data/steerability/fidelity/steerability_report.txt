@@ -1,0 +1,42 @@
+==================================================================
+STEERABILITY FIDELITY  (human consensus matches target)
+==================================================================
+
+Overall strict fidelity (all 4 axes): 33.3%
+
+Per-axis fidelity:
+  intent               59.3%
+  primary_driver       75.0%
+  value_orientation    69.4%
+  affect               76.9%
+
+------------------------------------------------------------------
+CONGRUENCE GAP  (primary result)
+------------------------------------------------------------------
+
+[Value-Orientation axis]
+  congruent   fidelity: 68.5%  (n=54)
+  incongruent fidelity: 70.4%  (n=54)
+  GAP = -1.9%   95% CI [-20.4%, +16.7%]   p=1.0000
+
+[all-axes (strict)]
+  congruent   fidelity: 33.3%  (n=54)
+  incongruent fidelity: 33.3%  (n=54)
+  GAP = +0.0%   95% CI [-18.5%, +18.5%]   p=1.0000
+
+------------------------------------------------------------------
+BY MODEL (all-axes strict fidelity, congruent vs incongruent)
+------------------------------------------------------------------
+  Claude     congruent 38.9% | incongruent 33.3% | gap +5.6%
+  GPT        congruent 38.9% | incongruent 22.2% | gap +16.7%
+  Gemini     congruent 22.2% | incongruent 44.4% | gap -22.2%
+
+------------------------------------------------------------------
+BY PERSONA (all-axes strict fidelity)
+------------------------------------------------------------------
+  C1: 44.4%  (congruent)
+  C2: 16.7%  (congruent)
+  C3: 38.9%  (congruent)
+  I1: 50.0%  (incongruent)
+  I2: 27.8%  (incongruent)
+  I3: 22.2%  (incongruent)

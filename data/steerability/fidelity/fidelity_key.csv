@@ -1,0 +1,109 @@
+gen_id,model,model_version,congruence,persona_id,question_id,target_intent,target_primary_driver,target_value_orientation,target_affect
+g0078,Claude,Claude Opus 4.6,congruent,C1,Q6,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0011,Gemini,Gemini 3.6 Flash,congruent,C2,Q5,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0005,Gemini,Gemini 3.6 Flash,congruent,C1,Q5,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0084,Claude,Claude Opus 4.6,congruent,C2,Q6,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0063,GPT,GPT 5.6 Luna,incongruent,I2,Q3,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0068,GPT,GPT 5.6 Luna,incongruent,I3,Q2,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0031,Gemini,Gemini 3.6 Flash,incongruent,I3,Q1,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0046,GPT,GPT 5.6 Luna,congruent,C2,Q4,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0096,Claude,Claude Opus 4.6,incongruent,I1,Q6,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0012,Gemini,Gemini 3.6 Flash,congruent,C2,Q6,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0082,Claude,Claude Opus 4.6,congruent,C2,Q4,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0080,Claude,Claude Opus 4.6,congruent,C2,Q2,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0001,Gemini,Gemini 3.6 Flash,congruent,C1,Q1,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0081,Claude,Claude Opus 4.6,congruent,C2,Q3,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0019,Gemini,Gemini 3.6 Flash,incongruent,I1,Q1,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0070,GPT,GPT 5.6 Luna,incongruent,I3,Q4,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0057,GPT,GPT 5.6 Luna,incongruent,I1,Q3,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0077,Claude,Claude Opus 4.6,congruent,C1,Q5,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0107,Claude,Claude Opus 4.6,incongruent,I3,Q5,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0043,GPT,GPT 5.6 Luna,congruent,C2,Q1,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0013,Gemini,Gemini 3.6 Flash,congruent,C3,Q1,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0037,GPT,GPT 5.6 Luna,congruent,C1,Q1,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0065,GPT,GPT 5.6 Luna,incongruent,I2,Q5,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0027,Gemini,Gemini 3.6 Flash,incongruent,I2,Q3,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0023,Gemini,Gemini 3.6 Flash,incongruent,I1,Q5,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0032,Gemini,Gemini 3.6 Flash,incongruent,I3,Q2,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0048,GPT,GPT 5.6 Luna,congruent,C2,Q6,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0101,Claude,Claude Opus 4.6,incongruent,I2,Q5,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0016,Gemini,Gemini 3.6 Flash,congruent,C3,Q4,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0045,GPT,GPT 5.6 Luna,congruent,C2,Q3,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0089,Claude,Claude Opus 4.6,congruent,C3,Q5,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0090,Claude,Claude Opus 4.6,congruent,C3,Q6,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0010,Gemini,Gemini 3.6 Flash,congruent,C2,Q4,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0034,Gemini,Gemini 3.6 Flash,incongruent,I3,Q4,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0056,GPT,GPT 5.6 Luna,incongruent,I1,Q2,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0104,Claude,Claude Opus 4.6,incongruent,I3,Q2,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0029,Gemini,Gemini 3.6 Flash,incongruent,I2,Q5,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0041,GPT,GPT 5.6 Luna,congruent,C1,Q5,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0006,Gemini,Gemini 3.6 Flash,congruent,C1,Q6,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0054,GPT,GPT 5.6 Luna,congruent,C3,Q6,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0108,Claude,Claude Opus 4.6,incongruent,I3,Q6,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0040,GPT,GPT 5.6 Luna,congruent,C1,Q4,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0036,Gemini,Gemini 3.6 Flash,incongruent,I3,Q6,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0017,Gemini,Gemini 3.6 Flash,congruent,C3,Q5,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0079,Claude,Claude Opus 4.6,congruent,C2,Q1,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0035,Gemini,Gemini 3.6 Flash,incongruent,I3,Q5,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0067,GPT,GPT 5.6 Luna,incongruent,I3,Q1,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0008,Gemini,Gemini 3.6 Flash,congruent,C2,Q2,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0044,GPT,GPT 5.6 Luna,congruent,C2,Q2,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0066,GPT,GPT 5.6 Luna,incongruent,I2,Q6,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0073,Claude,Claude Opus 4.6,congruent,C1,Q1,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0028,Gemini,Gemini 3.6 Flash,incongruent,I2,Q4,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0020,Gemini,Gemini 3.6 Flash,incongruent,I1,Q2,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0091,Claude,Claude Opus 4.6,incongruent,I1,Q1,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0106,Claude,Claude Opus 4.6,incongruent,I3,Q4,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0026,Gemini,Gemini 3.6 Flash,incongruent,I2,Q2,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0069,GPT,GPT 5.6 Luna,incongruent,I3,Q3,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0050,GPT,GPT 5.6 Luna,congruent,C3,Q2,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0014,Gemini,Gemini 3.6 Flash,congruent,C3,Q2,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0025,Gemini,Gemini 3.6 Flash,incongruent,I2,Q1,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0004,Gemini,Gemini 3.6 Flash,congruent,C1,Q4,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0018,Gemini,Gemini 3.6 Flash,congruent,C3,Q6,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0039,GPT,GPT 5.6 Luna,congruent,C1,Q3,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0009,Gemini,Gemini 3.6 Flash,congruent,C2,Q3,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0085,Claude,Claude Opus 4.6,congruent,C3,Q1,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0007,Gemini,Gemini 3.6 Flash,congruent,C2,Q1,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0071,GPT,GPT 5.6 Luna,incongruent,I3,Q5,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0095,Claude,Claude Opus 4.6,incongruent,I1,Q5,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0100,Claude,Claude Opus 4.6,incongruent,I2,Q4,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0055,GPT,GPT 5.6 Luna,incongruent,I1,Q1,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0051,GPT,GPT 5.6 Luna,congruent,C3,Q3,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0074,Claude,Claude Opus 4.6,congruent,C1,Q2,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0047,GPT,GPT 5.6 Luna,congruent,C2,Q5,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0098,Claude,Claude Opus 4.6,incongruent,I2,Q2,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0062,GPT,GPT 5.6 Luna,incongruent,I2,Q2,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0105,Claude,Claude Opus 4.6,incongruent,I3,Q3,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0086,Claude,Claude Opus 4.6,congruent,C3,Q2,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0042,GPT,GPT 5.6 Luna,congruent,C1,Q6,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0059,GPT,GPT 5.6 Luna,incongruent,I1,Q5,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0049,GPT,GPT 5.6 Luna,congruent,C3,Q1,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0094,Claude,Claude Opus 4.6,incongruent,I1,Q4,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0058,GPT,GPT 5.6 Luna,incongruent,I1,Q4,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0076,Claude,Claude Opus 4.6,congruent,C1,Q4,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0033,Gemini,Gemini 3.6 Flash,incongruent,I3,Q3,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0102,Claude,Claude Opus 4.6,incongruent,I2,Q6,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0060,GPT,GPT 5.6 Luna,incongruent,I1,Q6,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0064,GPT,GPT 5.6 Luna,incongruent,I2,Q4,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0092,Claude,Claude Opus 4.6,incongruent,I1,Q2,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0038,GPT,GPT 5.6 Luna,congruent,C1,Q2,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0030,Gemini,Gemini 3.6 Flash,incongruent,I2,Q6,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0097,Claude,Claude Opus 4.6,incongruent,I2,Q1,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0002,Gemini,Gemini 3.6 Flash,congruent,C1,Q2,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0053,GPT,GPT 5.6 Luna,congruent,C3,Q5,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0022,Gemini,Gemini 3.6 Flash,incongruent,I1,Q4,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0003,Gemini,Gemini 3.6 Flash,congruent,C1,Q3,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0024,Gemini,Gemini 3.6 Flash,incongruent,I1,Q6,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0088,Claude,Claude Opus 4.6,congruent,C3,Q4,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0099,Claude,Claude Opus 4.6,incongruent,I2,Q3,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0075,Claude,Claude Opus 4.6,congruent,C1,Q3,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0087,Claude,Claude Opus 4.6,congruent,C3,Q3,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0083,Claude,Claude Opus 4.6,congruent,C2,Q5,Neutral/Observation,Economic Necessity,Individualist-Self,Pragmatic
+g0021,Gemini,Gemini 3.6 Flash,incongruent,I1,Q3,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0061,GPT,GPT 5.6 Luna,incongruent,I2,Q1,Trapped/Regretful,Family Obligation,Collectivist-Family,Despairing/Sad
+g0072,GPT,GPT 5.6 Luna,incongruent,I3,Q6,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated
+g0015,Gemini,Gemini 3.6 Flash,congruent,C3,Q3,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0093,Claude,Claude Opus 4.6,incongruent,I1,Q3,Anti-Migration,Patriotism/Love,Collectivist-Nation,Hopeful/Motivated
+g0052,GPT,GPT 5.6 Luna,congruent,C3,Q4,Pro-Migration,Economic Necessity,Individualist-Self,Pragmatic
+g0103,Claude,Claude Opus 4.6,incongruent,I3,Q1,Anti-Migration,Systemic/Political Anger,Collectivist-Nation,Angry/Frustrated

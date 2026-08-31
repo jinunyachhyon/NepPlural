@@ -1,0 +1,109 @@
+gen_id,model,congruence,persona_id,intent_consensus,intent_target,intent_match,primary_driver_consensus,primary_driver_target,primary_driver_match,value_orientation_consensus,value_orientation_target,value_orientation_match,affect_consensus,affect_target,affect_match,all_axes_match
+g0078,Claude,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0011,Gemini,congruent,C2,Pro-Migration,Neutral/Observation,0,,Economic Necessity,0,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0005,Gemini,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0084,Claude,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0063,GPT,incongruent,I2,Pro-Migration,Trapped/Regretful,0,Economic Necessity,Family Obligation,0,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,0
+g0068,GPT,incongruent,I3,Neutral/Observation,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,0
+g0031,Gemini,incongruent,I3,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Systemic/Political Anger,1,Individualist-Self,Collectivist-Nation,0,Angry/Frustrated,Angry/Frustrated,1,0
+g0046,GPT,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0096,Claude,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0012,Gemini,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0082,Claude,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0080,Claude,congruent,C2,Neutral/Observation,Neutral/Observation,1,Economic Necessity,Economic Necessity,1,Collectivist-Nation,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0001,Gemini,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0081,Claude,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,,Pragmatic,0,0
+g0019,Gemini,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0070,GPT,incongruent,I3,Pro-Migration,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Individualist-Self,Collectivist-Nation,0,Angry/Frustrated,Angry/Frustrated,1,0
+g0057,GPT,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,,Hopeful/Motivated,0,0
+g0077,Claude,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0107,Claude,incongruent,I3,Pro-Migration,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Family,Collectivist-Nation,0,Angry/Frustrated,Angry/Frustrated,1,0
+g0043,GPT,congruent,C2,Neutral/Observation,Neutral/Observation,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0013,Gemini,congruent,C3,Pro-Migration,Pro-Migration,1,Systemic/Political Anger,Economic Necessity,0,Individualist-Self,Individualist-Self,1,Angry/Frustrated,Pragmatic,0,0
+g0037,GPT,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0065,GPT,incongruent,I2,Pro-Migration,Trapped/Regretful,0,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,0
+g0027,Gemini,incongruent,I2,,Trapped/Regretful,0,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,0
+g0023,Gemini,incongruent,I1,Anti-Migration,Anti-Migration,1,Family Obligation,Patriotism/Love,0,Collectivist-Family,Collectivist-Nation,0,Despairing/Sad,Hopeful/Motivated,0,0
+g0032,Gemini,incongruent,I3,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,1
+g0048,GPT,congruent,C2,Neutral/Observation,Neutral/Observation,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0101,Claude,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,Systemic/Political Anger,Family Obligation,0,Individualist-Self,Collectivist-Family,0,Angry/Frustrated,Despairing/Sad,0,0
+g0016,Gemini,congruent,C3,Pro-Migration,Pro-Migration,1,Systemic/Political Anger,Economic Necessity,0,Individualist-Self,Individualist-Self,1,Despairing/Sad,Pragmatic,0,0
+g0045,GPT,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0089,Claude,congruent,C3,Pro-Migration,Pro-Migration,1,Family Obligation,Economic Necessity,0,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0090,Claude,congruent,C3,,Pro-Migration,0,Systemic/Political Anger,Economic Necessity,0,Collectivist-Nation,Individualist-Self,0,Despairing/Sad,Pragmatic,0,0
+g0010,Gemini,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0034,Gemini,incongruent,I3,Pro-Migration,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,0
+g0056,GPT,incongruent,I1,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Patriotism/Love,0,Collectivist-Nation,Collectivist-Nation,1,Pragmatic,Hopeful/Motivated,0,0
+g0104,Claude,incongruent,I3,Neutral/Observation,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,0
+g0029,Gemini,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,1
+g0041,GPT,congruent,C1,Pro-Migration,Pro-Migration,1,Family Obligation,Economic Necessity,0,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0006,Gemini,congruent,C1,Neutral/Observation,Pro-Migration,0,Economic Necessity,Economic Necessity,1,Collectivist-Nation,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0054,GPT,congruent,C3,Neutral/Observation,Pro-Migration,0,Economic Necessity,Economic Necessity,1,Collectivist-Nation,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0108,Claude,incongruent,I3,Neutral/Observation,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,0
+g0040,GPT,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0036,Gemini,incongruent,I3,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,1
+g0017,Gemini,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0079,Claude,congruent,C2,Neutral/Observation,Neutral/Observation,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0035,Gemini,incongruent,I3,Pro-Migration,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Family,Collectivist-Nation,0,Angry/Frustrated,Angry/Frustrated,1,0
+g0067,GPT,incongruent,I3,,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,0
+g0008,Gemini,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0044,GPT,congruent,C2,,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0066,GPT,incongruent,I2,Neutral/Observation,Trapped/Regretful,0,Economic Necessity,Family Obligation,0,Individualist-Self,Collectivist-Family,0,Despairing/Sad,Despairing/Sad,1,0
+g0073,Claude,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0028,Gemini,incongruent,I2,Pro-Migration,Trapped/Regretful,0,Economic Necessity,Family Obligation,0,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,0
+g0020,Gemini,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0091,Claude,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0106,Claude,incongruent,I3,Pro-Migration,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Individualist-Self,Collectivist-Nation,0,Angry/Frustrated,Angry/Frustrated,1,0
+g0026,Gemini,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,,Family Obligation,0,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,0
+g0069,GPT,incongruent,I3,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Angry/Frustrated,0,0
+g0050,GPT,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0014,Gemini,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0025,Gemini,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,1
+g0004,Gemini,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0018,Gemini,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0039,GPT,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Hopeful/Motivated,Pragmatic,0,0
+g0009,Gemini,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0085,Claude,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0007,Gemini,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Hopeful/Motivated,Pragmatic,0,0
+g0071,GPT,incongruent,I3,Pro-Migration,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Family,Collectivist-Nation,0,Pragmatic,Angry/Frustrated,0,0
+g0095,Claude,incongruent,I1,,Anti-Migration,0,Family Obligation,Patriotism/Love,0,Collectivist-Family,Collectivist-Nation,0,Despairing/Sad,Hopeful/Motivated,0,0
+g0100,Claude,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,1
+g0055,GPT,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0051,GPT,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Hopeful/Motivated,Pragmatic,0,0
+g0074,Claude,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0047,GPT,congruent,C2,Pro-Migration,Neutral/Observation,0,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,0
+g0098,Claude,incongruent,I2,,Trapped/Regretful,0,Systemic/Political Anger,Family Obligation,0,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,0
+g0062,GPT,incongruent,I2,,Trapped/Regretful,0,Patriotism/Love,Family Obligation,0,Collectivist-Nation,Collectivist-Family,0,Despairing/Sad,Despairing/Sad,1,0
+g0105,Claude,incongruent,I3,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Systemic/Political Anger,1,Individualist-Self,Collectivist-Nation,0,Despairing/Sad,Angry/Frustrated,0,0
+g0086,Claude,congruent,C3,Neutral/Observation,Pro-Migration,0,Systemic/Political Anger,Economic Necessity,0,Collectivist-Nation,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0042,GPT,congruent,C1,,Pro-Migration,0,Economic Necessity,Economic Necessity,1,Collectivist-Nation,Individualist-Self,0,,Pragmatic,0,0
+g0059,GPT,incongruent,I1,,Anti-Migration,0,Family Obligation,Patriotism/Love,0,Collectivist-Family,Collectivist-Nation,0,Pragmatic,Hopeful/Motivated,0,0
+g0049,GPT,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0094,Claude,incongruent,I1,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Patriotism/Love,0,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Hopeful/Motivated,0,0
+g0058,GPT,incongruent,I1,Neutral/Observation,Anti-Migration,0,Systemic/Political Anger,Patriotism/Love,0,Collectivist-Nation,Collectivist-Nation,1,Pragmatic,Hopeful/Motivated,0,0
+g0076,Claude,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0033,Gemini,incongruent,I3,Neutral/Observation,Anti-Migration,0,Systemic/Political Anger,Systemic/Political Anger,1,Individualist-Self,Collectivist-Nation,0,Angry/Frustrated,Angry/Frustrated,1,0
+g0102,Claude,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,Systemic/Political Anger,Family Obligation,0,Collectivist-Nation,Collectivist-Family,0,Despairing/Sad,Despairing/Sad,1,0
+g0060,GPT,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0064,GPT,incongruent,I2,Pro-Migration,Trapped/Regretful,0,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Pragmatic,Despairing/Sad,0,0
+g0092,Claude,incongruent,I1,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Patriotism/Love,0,Collectivist-Nation,Collectivist-Nation,1,,Hopeful/Motivated,0,0
+g0038,GPT,congruent,C1,Neutral/Observation,Pro-Migration,0,Economic Necessity,Economic Necessity,1,Collectivist-Nation,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0030,Gemini,incongruent,I2,Anti-Migration,Trapped/Regretful,0,Patriotism/Love,Family Obligation,0,Collectivist-Nation,Collectivist-Family,0,Despairing/Sad,Despairing/Sad,1,0
+g0097,Claude,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,1
+g0002,Gemini,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0053,GPT,congruent,C3,Pro-Migration,Pro-Migration,1,Family Obligation,Economic Necessity,0,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0022,Gemini,incongruent,I1,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Patriotism/Love,0,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,0
+g0003,Gemini,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,,Individualist-Self,0,Hopeful/Motivated,Pragmatic,0,0
+g0024,Gemini,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0088,Claude,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0099,Claude,incongruent,I2,,Trapped/Regretful,0,Economic Necessity,Family Obligation,0,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,0
+g0075,Claude,congruent,C1,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Hopeful/Motivated,Pragmatic,0,0
+g0087,Claude,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Hopeful/Motivated,Pragmatic,0,0
+g0083,Claude,congruent,C2,Pro-Migration,Neutral/Observation,0,Family Obligation,Economic Necessity,0,Collectivist-Family,Individualist-Self,0,Pragmatic,Pragmatic,1,0
+g0021,Gemini,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0061,GPT,incongruent,I2,Trapped/Regretful,Trapped/Regretful,1,Family Obligation,Family Obligation,1,Collectivist-Family,Collectivist-Family,1,Despairing/Sad,Despairing/Sad,1,1
+g0072,GPT,incongruent,I3,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,1
+g0015,Gemini,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Hopeful/Motivated,Pragmatic,0,0
+g0093,Claude,incongruent,I1,Anti-Migration,Anti-Migration,1,Patriotism/Love,Patriotism/Love,1,Collectivist-Nation,Collectivist-Nation,1,Hopeful/Motivated,Hopeful/Motivated,1,1
+g0052,GPT,congruent,C3,Pro-Migration,Pro-Migration,1,Economic Necessity,Economic Necessity,1,Individualist-Self,Individualist-Self,1,Pragmatic,Pragmatic,1,1
+g0103,Claude,incongruent,I3,Anti-Migration,Anti-Migration,1,Systemic/Political Anger,Systemic/Political Anger,1,Collectivist-Nation,Collectivist-Nation,1,Angry/Frustrated,Angry/Frustrated,1,1
